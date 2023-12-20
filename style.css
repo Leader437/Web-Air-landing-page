@@ -336,6 +336,10 @@ footer {
     #home {
         flex-direction: row-reverse;
     }
+    .home-form input[type="text"],
+    .home-form input[type="submit"] {
+        width: 50%;
+    }
     .info {
         padding-top: 5rem;
         display: flex;
